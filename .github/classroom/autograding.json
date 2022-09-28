@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ A61.cpp && ./a.out",
+      "input": "2 10",
+      "output": "[2, 3, 5, 7]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "g++ A61.cpp && ./a.out",
+      "input": "50 60",
+      "output": "[53, 59]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "g++ A61.cpp && ./a.out",
+      "input": "50 40\r\n10 20",
+      "output": "[11, 13, 17, 19]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
